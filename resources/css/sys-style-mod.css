@@ -1,0 +1,221 @@
+body{
+	font-size: 14px;
+	line-height:1.5em;
+	background-color: #1d1b1b  /*#1d2120;*/
+	/*font-family: "open sans","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+}
+b, strong{
+	font-weight: 600;
+}
+h3, h4, h5{
+	font-weight: 600;
+}
+h2 {
+    font-size: 35px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-bottom: 15px;
+	/*font-family: "open sans","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+}
+label{
+	display:inline-flex;
+}
+.ibox-content h1,
+.ibox-content h2,
+.ibox-content h3,
+.ibox-content h4,
+.ibox-content h5,
+.ibox-title h1,
+.ibox-title h2,
+.ibox-title h3,
+.ibox-title h4,
+.ibox-title h5 {
+  margin-top: 7px;
+}
+.border-top-thick {
+  border-top: 3px solid #e7eaec !important;
+}
+.border-none {
+  border: 0px !important;
+}
+.breadcrumb > .active a{
+	font-weight:700;
+}
+#page-wrapper {
+	margin: 0 0 0 260px;
+}
+.navbar-static-side {
+    width: 260px;
+}
+.nav > li.active {
+    background: #2b2a2a none repeat scroll 0 0;
+    border-left: 4px solid #19aa8d;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus {
+  background-color: #2b2a2a;
+  color: white;
+}
+.wrapper-content{
+	padding: 20px 25px;
+}
+.ibox{
+	margin-bottom:25px;
+	/*padding:25px;*/
+}
+.ibox-title{
+	min-height:60px;
+}
+.ibox-title, .ibox-content{
+	/*border:none;*/
+}
+.ibox-title h5{
+	font-size:19px;
+}
+.ibox-title .label {
+    margin-left: 20px;
+    margin-top: 4px;
+}
+.ibox-content-filter{
+	background-color: #f3f6fb;
+}
+.page-heading h2{
+	/*margin: 20px 0;*/
+}
+
+.loginscreen h3{
+	text-transform: uppercase;
+}
+/* BACKGROUNDS */
+.fix-pos{
+	height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;	
+}
+/* TOOLTIPS */
+.ui-tooltip, .tooltip {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 0px;
+    font: inherit;
+    /*box-shadow: 0 0 7px #ccc;*/
+  }
+
+
+.pagination > li > a, .pagination > li > span{
+	padding:5px 14px;
+}
+.pagination li span input{
+	height: 30px;
+}
+.pagination li span._GOTO{
+	padding:0;
+	width:135px;
+}
+.login-bg{
+ z-index: 1;
+  
+ -webkit-filter: blur(0px) opacity(.45) saturate(4) brightness(.4);
+ -moz-filter: blur(0px) opacity(.45) saturate(4) brightness(.4);
+ -o-filter: blur(0px) opacity(.45) saturate(4) brightness(.4); 
+ -ms-filter: blur(0px) opacity(.45) saturate(4) brightness(.4);
+ filter: blur(0px) opacity(1) saturate(0.4) brightness(0.35);
+ width:100%;
+ height:100%;
+
+ background: url(core_imgs/pexels-photo-30776.jpg ) no-repeat center center fixed;
+
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+.login-bg-lay{
+ z-index: 1;
+  
+ -webkit-filter: blur(0px) opacity(.45) saturate(4) brightness(.4);
+ -moz-filter: blur(0px) opacity(.45) saturate(4) brightness(.4);
+ -o-filter: blur(0px) opacity(.45) saturate(4) brightness(.4); 
+ -ms-filter: blur(0px) opacity(.45) saturate(4) brightness(.4);
+ filter: blur(0px) opacity(.45) saturate(4) brightness(.4);
+ width:100%;
+ height:100%;
+
+ background: url( core_imgs/SplitShire_lowpoly_II.jpg) no-repeat center center fixed;
+  
+ -webkit-background-size: 300% auto;
+ -moz-background-size: 300% auto;
+ -o-background-size: 300% auto;
+ background-size: 300% auto;
+}
+.black-gr-bg {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #1e2124 0px, #595d66 100%) repeat scroll 0 0;
+    color: #9297a1;
+}
+.blue-gr-bg{
+	background: #0077b5 linear-gradient(45deg, #0077b5, #008891) repeat fixed 0 0; /* rgba(0, 0, 0, 0) linear-gradient(135deg, #4c88ef 0%, #17e4d9 100%) repeat scroll 0 0;*/
+	
+}
+.gray-gr-bg{
+	background: #ececec linear-gradient(0deg, #ebebeb, #ececec) repeat fixed 0 0; /* rgba(0, 0, 0, 0) linear-gradient(135deg, #4c88ef 0%, #17e4d9 100%) repeat scroll 0 0;*/
+	
+}
+.mask-bg {
+    background: rgba(0, 0, 0, 0) linear-gradient(top bottom, rgba(0, 0, 0, 0.4) 0%, transparent 20%, transparent 80%, rgba(0, 0, 0, 0.4) 100%) repeat scroll 0 0;
+    z-index: 100;
+
+}
+.nav-mod > li.active > a, .nav-mod > li.active > a:hover, .nav-mod > li.active > a:focus{
+	background:#fff;
+	
+}
+.nav > li.active{
+	border-left: #fff;
+	background: none;
+}
+/*http://www.webcore-it.com/colorful-background/#*/
+.default-bg{
+	background:
+		-webkit-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(209, 17%, 55%, 1) 10%, hsla(209, 17%, 55%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(206, 60%, 100%, 1) 10%, hsla(206, 60%, 100%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(359, 0%, 99%, 1) 100%, hsla(359, 0%, 99%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 0) 70%),
+		linear-gradient(135deg, hsla(209, 17%, 55%, 1) 10%, hsla(209, 17%, 55%, 0) 80%),
+		linear-gradient(225deg, hsla(206, 60%, 100%, 1) 10%, hsla(206, 60%, 100%, 0) 80%),
+		linear-gradient(315deg, hsla(359, 0%, 99%, 1) 100%, hsla(359, 0%, 99%, 0) 70%);
+	}
+.trans-bg{
+	background: rgba(0,0,0,0.35);
+}
+.loginscreen.middle-box{
+	width:100%;
+	padding: 35px 15px;
+}
+.LoginLogo{
+	margin: 0 0 15px 0;
+}
+.hr-line-dashed{
+	clear:both;
+}
+.clearboth{
+	clear:both;
+}
+.fh-70{
+	height:70px;
+}
+.fh-90{
+	height:90px;
+}
+.fh-100{
+	height:100px;
+}
+.h-250 {
+  min-height: 250px;
+}
+.h-300 {
+  min-height: 300px;
+}
